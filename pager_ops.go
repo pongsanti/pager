@@ -12,7 +12,7 @@ func (p Pager) AllRecord() int {
 	return p.allRecord
 }
 
-func (p Pager) SetAllRecord(allRecord int) {
+func (p *Pager) SetAllRecord(allRecord int) {
 	p.allRecord = allRecord
 }
 
